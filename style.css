@@ -1,0 +1,219 @@
+/* header */
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+/* footer */
+#footer{
+    height:30px;
+    background-color: #EDEDED;
+}
+
+#elementWithBackground{
+    background-image: url('images/3.png');
+    background-size: cover;
+    height: 277px;
+}
+#transparentElement{
+    height: 100%;
+    background-color: rgba(72,72,72, 0.11);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-clip: content-box;
+}
+#elementWithBackground2{
+    background-image: url('images/4.png');
+    background-size: cover;
+    height: 277px;
+}
+#transparentElement2{
+    height: 100%;
+    background-color: rgba(72,72,72, 0.11);
+    padding-top: 60px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+    background-clip: content-box;
+}
+.navbar-custom{
+    background-color: rgba(228, 228, 228, 0.40) !important;
+}
+.container{
+    background-color: rgba(228, 228, 228, 0.40) !important;
+    background-clip: content-box;
+}
+#HomeSignIn{
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+}
+#HomeSignUp{
+    height: 100px;
+    width: 200px;
+    font-size: 20px;
+}
+#MainCaption{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 3rem;
+}
+@media (max-width: 1199.98px) { 
+    #MainCaption{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 991.98px) { 
+    #MainCaption{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 767.98px) {
+    #MainCaption{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 575.98px) { 
+    #MainCaption{
+        font-size: 1.5rem;
+    }
+}
+.tutorCanvas{
+    margin-top: 50px;
+    margin-bottom:50px;
+    
+    width: 100%;
+    background-color: #EDEDED;
+    background-clip: content-box;
+    /* overflow: hidden; */
+    display:table;  /* Very important property */
+    
+}
+#block{
+    margin: 20px;
+}
+.myPadding{
+    padding:10px;
+    align-content: center;
+}
+#bioTextArea{
+    resize: none;
+    height: 200px;
+}
+#btnTownLabel,#btnLanguageLabel,#btnSubjectLabel{
+    visibility: hidden;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+table td {
+    word-wrap: break-word;         /* All browsers since IE 5.5+ */
+    overflow-wrap: break-word;     /* Renamed property in CSS3 draft spec */
+}
+#btnSubmit{
+    margin-top:30px;
+}
+.tableTextInput[type="text"]
+{
+    background: transparent;
+    border: none;
+}
+
+#signInBox {
+    height: 288px;
+    width: 492px;
+    margin-top: 70px;
+    /* margin-left: 320px; */
+    background-color: #EDEDED;
+    background-clip: content-box;
+    margin-bottom: 90px;
+}
+#signUpBox {
+    height: 350px;
+    width: 800px;
+    margin-top: 70px;
+    /* margin-left: 320px; */
+    background-color: #EDEDED;
+    background-clip: content-box;
+    margin-bottom: 90px;
+}
+.describeBox {
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    background-color: #EDEDED;
+}
+#describeBoxLeft{
+    border-right: 1px solid #AAAAAA;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+}
+#describeBoxRight {
+    margin-left: 5px;
+}
+#describeBoxBottom {
+    border-top: 1px solid #AAAAAA;
+    margin: 0;
+}
+#describeBoxLeftBottom {
+    border-right: 1px solid #AAAAAA;
+    padding-right: 0;
+    margin-left: -5px;
+
+}
+#describeBoxLeftBottomCheckForm{
+    margin-left:10px;
+}
+#describeTutorDescribe {
+    overflow-wrap: break-word;
+}
+#describeContact {
+    border-top: 1px solid #AAAAAA;
+}
+#searchLeftCol{
+    border-right: 1px solid black;
+}
+#searchRightCol{
+        padding-left:0px;   
+}
+#searchBox{
+    margin:20px;
+}
+#submitSearch{
+        margin-bottom:20px;
+        margin-top:20px;
+}
+.viewItems{
+    background-color: #EDEDED;
+    padding:10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.viewItems:hover{
+    background-color: rgba(228, 228, 228, 1) !important;
+}
+#viewItemImage{ 
+    border-radius: 5px;
+}
+#tutorDescription{
+    display: block;
+    display: -webkit-box;
+    max-width: 400px;
+    height: 100px;
+    line-height: 1.5;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#viewItemsRight{
+    margin-left: 5px;
+    
+}
+#primaryRow{
+    margin-right:0px;
+}
